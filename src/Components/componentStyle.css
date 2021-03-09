@@ -1,0 +1,75 @@
+.footer{
+    /*background: linear-gradient( rgba(128, 128, 128, 0.486), rgba(255, 255, 255, 0.486));*/
+    background: url('../assets/bgSlow.jpg') center;
+    display: grid;
+    min-height: 25vh;
+    width: 100%;
+    position: absolute;
+}
+
+#txtW{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+i{
+    font-size: 50px;
+    transition: .4s;
+}
+
+i:hover{
+    transform: rotate(-0.2turn);
+    background: grey;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#fb{
+    color: rgb(49, 52, 255);
+}
+
+#ig{
+    background: -webkit-linear-gradient(120deg,  yellow, rgb(255, 0, 106), rgb(25, 0, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#ig:hover{
+    background: grey;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#pin{
+    color: red;
+}
+
+.jump{
+    transition: .4s;
+    color: rgb(48, 211, 223);
+}
+
+.jump:hover{
+    color: tomato;
+    transform: translateX(10px) rotate(10deg) translateY(5px);
+}
+
+.btn-color{
+    background: linear-gradient(120deg, rgba(0, 247, 255, 0.286), rgba(240, 240, 127, 0.286),rgba(206, 43, 206, 0.286), rgba(57, 230, 57, 0.651));
+    transition: .4s;
+    color: white;
+}
+
+.btn-color:hover{
+    background: linear-gradient(120deg, rgba(0, 247, 255, 0.705), rgba(240, 240, 127, 0.705),rgba(206, 43, 206, 0.705), rgba(57, 230, 57, 0.705));
+    transform: scale(1.3);
+}
+
+.my-col{
+    display: flex;
+    margin: 0 0 5px 0;
+    margin-bottom: 3em;
+}
